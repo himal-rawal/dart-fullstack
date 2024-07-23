@@ -1,3 +1,4 @@
+import 'package:blogui/blog_post_home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,23 +18,6 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const BlogPostHomePage(),
-    );
-  }
-}
-
-class BlogPostHomePage extends StatelessWidget {
-  const BlogPostHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Himal's Blog"),
-      ),
-      body: const SingleChildScrollView(
-          child: Column(
-        children: [],
-      )),
     );
   }
 }
